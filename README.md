@@ -7,7 +7,6 @@ If you reuse this software, please use the following citation:
 ```
 @InProceedings{peyrard:2016:ACL,
   author = {Peyrard, Maxime and Eckle-Kohler, Judith},
-  author = {Maxime Peyrard and Judith Eckle-Kohler},
   title = {Optimizing an Approximation of ROUGE - a Problem-Reduction Approach to Extractive Multi-Document Summarization},
   month = {aug},
   year = {2016},
@@ -53,7 +52,6 @@ To check the installation, a trivial toy example is computed by running:
 * `length_constraint`
   * the length constraint of the summary in number of words.
 
-overlap_discount=(1./150.), damping= 1., max_depth=50, N=2
 * `[overlap_discount]`
   * hyper-parameter to specify the discount in the pairwise interactions between sentences. 
   
