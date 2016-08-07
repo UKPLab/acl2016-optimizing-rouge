@@ -12,7 +12,7 @@ If you reuse this software, please use the following citation:
   year = {2016},
   publisher = {Association for Computational Linguistics},
   booktitle = {Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (ACL 2016)},
-  pages = {(to appear)},
+  pages = {1825--1836},
   volume = {Volume 1: Long Papers},
   location = {Berlin, Germany},
 }
