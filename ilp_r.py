@@ -130,7 +130,7 @@ def solve(sentences, length_constraint, damping, overlap_discount, N):
 	return summary, total_len
 
 def ILP_R_Optimizer(sentences, length_constraint, overlap_discount=(1./150.), damping= 1., max_depth=50, N=2):
-	sorted_sentences = sorted(sentence, key=lambda tup:tup[1], reverse=True)
+	sorted_sentences = sorted(sentences, key=lambda tup:tup[1], reverse=True)
 
 	tmp = sorted_sentences
 	if len(sorted_sentences) > max_depth:
