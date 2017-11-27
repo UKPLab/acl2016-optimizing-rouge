@@ -151,6 +151,7 @@ def ILP_R_Optimizer(sentences, length_constraint, overlap_discount=(1./150.), da
 			l = get_len(e[0])
 			if l <= length_constraint - total_len:
 				summary.append(e)
+				total_len += l
 				break
 
 	return summary
